@@ -1,6 +1,4 @@
-import pytest
-from com.kuma.operacoes import Operacoes
-
-def test_soma():
-    operacoes = Operacoes()
-    assert operacoes.soma([1,5]) == 6, 'should be 6'
+def func(x):
+    return x + 1
+def test_answer():
+    assert func(3) == 5
